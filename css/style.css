@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background: url(https://deadline.com/wp-content/uploads/2020/04/shutterstock_editorial_10605721b.jpg?w=1024)  center no-repeat fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;           
+    height: 100vh;
+}
+
+.login {
+    background-color: rgba(0, 0,0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px 0 15px 0;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-check {
+    margin: 25px;
+   
+}
+
+.form-check input,
+.form-check select {
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.form-check input:focus,
+.form-check select:focus,
+.button {
+    outline: none;
+}
+
+select {
+    margin-top: 10px;
+    
+}
+
+select option {
+    background-color:#333;
+}
+p, label {
+    font-size: 17px;
+}
+
+.button {
+    padding: 12px 30px;
+    border-radius: 5px;
+    background: teal;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+.visits {
+    padding: 15px 20px 0; 
+    text-align: left;
+}
+.visitors{
+    margin-bottom: 08px;
+    font-weight: 700;
+    
+}
